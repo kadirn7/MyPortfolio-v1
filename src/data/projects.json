@@ -2,20 +2,23 @@
     "projects": [
         {
             "id": 1,
-            "image": "images/project_0.jpg",
-            "category": "Cleint Project",
-            "title": "Noor and Brothers Ltd.",
-            "tags": ["Bootstrap", "Laravel", "Vue", "Inertia.js"],
-            "description": "<p>It's a work flow management software (sales, purchase, raw material stock, multilevel product stock, manufacturing management, customer/supplier management, employee management, accounting etc) for a coal tar manufacturing company in Bangladesh. I worked heavily in this project in my job at Haste IT. I was also involved in user requirement analysis and training on how to use the software."
+            "image": "images/Project1.MyPortfoy.png",
+            "category": "Kişisel Proje",
+            "title": "Kişisel Portföy Websitesi",
+            "tags": ["Vue.js", "Tailwind CSS", "Vite"],
+            "demo_link": "https://kadirn7.github.io/MyPortfolio-v1/",
+            "code_link": "https://github.com/kadirn7/MyPortfolio-v1",
+            "description": "<p>Modern ve profesyonel bir portföy websitesi. Vue.js 3 ve Tailwind CSS kullanılarak geliştirildi. Responsive tasarım, dark/light tema desteği, dinamik içerik yönetimi ve modern UI/UX özellikleri içermektedir. Clean code prensiplerine uygun olarak geliştirilmiş olup, projelerimi ve yeteneklerimi sergilemek için tasarlandı.</p>"
         },
         {
             "id": 2,
-            "image": "images/project_1.jpg",
+            "image": "images/Project2.VueProjelerim.png",
             "category": "Open Source",
-            "title": "Triangle POS & Inventory",
-            "tags": ["Bootstrap", "Laravel", "Livewire"],
-            "code_link": "https://github.com/FahimAnzamDip/triangle-pos",
-            "description": "<p>Triangle POS is an open source Inventory Management with POS System. Developed with Laravel 10, Bootstrap 4 & Livewire 2.0.</p>"
+            "title": "Vue.js Multi-Project Portfolio",
+            "tags": ["Vue.js", "Vite", "Tailwind CSS"],
+            "demo_link": "https://kadirn7.github.io/VueProject/",
+            "code_link": "https://github.com/kadirn7/VueProject",
+            "description": "<p>Modern ve responsive bir portföy projesi. Vue.js 3, Vite ve Tailwind CSS kullanılarak geliştirildi. Proje içerisinde 2048, Tic Tac Toe, Todo List, Pomodoro Timer, Calculator, Weather App ve Gallery gibi alt projeler bulunmaktadır. Tüm projeler tek bir repository altında toplanmış olup, clean code prensiplerine uygun olarak geliştirilmiştir.</p>"
         },
         {
             "id": 3,

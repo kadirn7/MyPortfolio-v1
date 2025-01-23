@@ -69,8 +69,16 @@ let currentTab = ref(1);
                             <div v-if="currentTab === 1" class="dark:text-slate-200 tracking-wide">
                                 <div class="prose dark:prose-invert prose-teal tracking-wide mb-7 text-left md:text-justify">
                                     <p>Merhaba, Ben <strong>Kadir Paşaoğlu</strong></p>
-                                    <p>Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Full Stack Web Developer olma yolunda ilerliyorum. Web projelerinde C# ile API geliştirme ve Vue.js ile frontend geliştirme konularında deneyim sahibiyim.</p>
-                                    <p>Yeni teknolojileri öğrenmeye ve müşterilerimin işlerini şekillendirecek yenilikçi çözümler üretmeye her zaman açığım.</p>
+                                    <p>
+                                        Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Modern web teknolojileri konusunda 
+                                        kendimi sürekli geliştiriyor ve Full Stack Developer olarak kariyer hedefliyorum. Özellikle C# ve .NET Core 
+                                        backend teknolojileri ile Vue.js frontend framework'ünde projeler geliştirerek deneyim kazanıyorum.
+                                    </p>
+                                    <p>
+                                        Clean Architecture, SOLID prensipleri ve modern yazılım geliştirme pratiklerini yakından takip ediyor, 
+                                        bu bilgileri projelerime yansıtmaya özen gösteriyorum. Teknoloji sektöründe Full Stack Developer olarak 
+                                        çalışmayı ve edindiğim bilgileri kurumsal projelerde kullanmayı hedefliyorum.
+                                    </p>
                                 </div>
 
                                 <a href="/files/resume.pdf" target="_blank" class="text-primary-500 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium flex items-center justify-start w-fit transition-all duration-300">
@@ -86,16 +94,18 @@ let currentTab = ref(1);
                                 </div>
                             </div>
                             <div v-else-if="currentTab === 3" class="dark:text-slate-200 tracking-wide">
-                                <Experience designation="Full Stack Developer" company="Freelance" timeline="2023 - Devam Ediyor">
+                                <Experience designation=" Kişisel Projeler" company="Portföy" timeline="2023 - Devam Ediyor">
                                     <template #description>
                                         <ul>
-                                            <li>C# ve .NET Core ile API geliştirme</li>
-                                            <li>Vue.js ile frontend geliştirme</li>
-                                            <li>Clean Architecture ve CQRS pattern kullanımı</li>
-                                            <li>Veritabanı tasarımı ve yönetimi</li>
+                                            <li>C# ve .NET Core kullanarak RESTful API'ler geliştirme</li>
+                                            <li>Vue.js ile modern ve responsive web uygulamaları oluşturma</li>
+                                            <li>Clean Architecture, CQRS ve Repository pattern implementasyonları</li>
+                                            <li>SQL Server ve PostgreSQL veritabanı yönetimi</li>
+                                            <li>Git versiyon kontrol sistemi ile proje yönetimi</li>
                                         </ul>
                                     </template>
                                 </Experience>
+                                
                             </div>
                             <div v-else-if="currentTab === 4" class="dark:text-slate-200 tracking-wide space-y-5">
                                 <Education 

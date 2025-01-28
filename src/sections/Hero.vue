@@ -8,7 +8,7 @@ let typed;
 
 onMounted(() => {
     typed = new Typed(typedElement.value, {
-        strings: ["Full Stack Web Developer", "Bilgisayar Mühendisi"],
+        strings: ["Software Developer", "Computer Engineer"],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 5000,
@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
                 }"
                 class="text-4xl md:text-6xl lg:text-8xl font-bold font-heading dark:text-slate-100 mb-5 text-center"
             >
-                Ben <span class="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-purple-500 dark:from-sky-400 dark:to-teal-400">Kadir Paşaoğlu</span>
+                 <span class="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-purple-500 dark:from-sky-400 dark:to-teal-400">Kadir Paşaoğlu</span>
             </h1>
             <h2
                 v-motion
